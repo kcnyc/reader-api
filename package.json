@@ -1,0 +1,35 @@
+{
+  "name": "reader-api",
+  "version": "0.1.0",
+  "description": "api to support the speed reading application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcnyc/reader-api.git"
+  },
+  "author": "Ben Cooley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kcnyc/reader-api/issues"
+  },
+  "homepage": "https://github.com/kcnyc/reader-api#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7"
+  }
+}
